@@ -1,0 +1,141 @@
+@font-face {
+    font-family: fonte;
+    src: url(Vortigra.otfS);
+}
+body {
+    background: rgb(17, 17, 17);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fonte;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+main { 
+    width: 1500px;
+    margin: auto;
+}
+.linha1 {
+    display: flex;
+    justify-content: space-between;
+}
+.linha2 {
+    display: flex;
+    justify-content: space-between;
+}
+.linha4 {
+    display: flex;
+    justify-content: space-between;
+}
+.linha5 {
+    display: flex;
+    justify-content: end;
+}
+.primeira {
+    margin-top: 45px;
+}
+.ultimo {
+    margin-bottom: 30px;
+}
+.content1 {
+    display: flex;
+}
+.content2 {
+    display: flex;
+}
+.bloco {
+    height: 80px;
+    width: 80px;
+     /* border: 1px solid white;  */
+    margin: 2px 2px 2px 2px;
+    border-radius: 5px;
+}
+.bloco3 {
+    background-color: blue;
+    margin: 1px;
+    width: 300px;
+    border-radius: 5px;
+}
+.bloco4 {
+    background-color: blueviolet;
+    margin: 1px;
+    width: 300px;
+    border-radius: 5px;  
+}
+.metais {
+    background-color: rgba(255,157,117,1) ;
+}
+.metais:hover {
+    background:  rgba(255,157,117,1);
+}
+.metaisal{
+    background-color: rgba(242,159,5,1);
+}
+.metaisal:hover{
+    background: rgb(242,159,5,1);
+}
+.terrosos {
+    background-color:  rgb(177, 166, 66);
+}
+.terrosos:hover {
+    background:rgba(255,240,100,1);
+}
+.verde {
+    background-color: rgba(100,245,154,1) ;
+}
+.verde:hover {
+    background: rgba(100,245,154,1);
+    color: black;
+} 
+.azul{
+    background-color:  rgba(97,132,255,1);
+}
+.azul:hover{
+    background: rgb(97,132,255,1);
+}
+.azulc{
+    background-color: rgb(97, 205, 255);
+}
+.azulc:hover{
+    background: rgb(97, 205, 255);
+}
+.cinza {
+    background-color: rgba(242,148,209,1);
+}
+.cinza:hover {
+    background: rgba(242,148,209,1);
+}
+.rosac {
+    background-color: rgb(231, 39, 164);
+}
+
+.rosac:hover {
+    background: rgb(231, 39, 164);
+}
+.numt {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 3px 0 2px 2px;
+
+}
+header{
+    text-align: center;
+    margin: 40px;
+    font-size: 100px;
+}
+header h1{
+    font-size: 100px;
+    text-shadow: 10px 10px 10px black;
+}
+h2,
+p {
+    text-align: center;
+
+}
+p {
+    font-weight: 100;
+    font-size: 13px;
+}
